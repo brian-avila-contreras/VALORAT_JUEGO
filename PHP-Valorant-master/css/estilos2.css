@@ -1,0 +1,45 @@
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Cambia a la derecha */
+    width: 250px;
+    height: 100%;
+    background: #ffffff;
+    transition: all 0.3s;
+    margin-top: 55px;
+}
+#sidebar.active {
+    right: 0; /* Cambia a la derecha */
+}
+#sidebar ul.components {
+    padding: 20px 0;
+}
+#sidebar ul li {
+    padding: 10px;
+    font-size: 1.2em;
+    color: white;
+}
+#sidebar ul li:hover {
+    background: #555;
+}
+/* Estilo para la imagen pequeña del agente en el menú lateral */
+#sidebar .agent-image {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 0; /* Cambia la forma de la imagen a cuadrada */
+}
+/* Estilo para la imagen del agente en la parte superior derecha */
+#agent-icon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 9999; /* Asegura que esté sobre el contenido */
+}
+.datos{
+    width: 500px;
+   display: flex;
+}

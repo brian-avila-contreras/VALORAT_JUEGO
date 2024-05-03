@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    /* Selecciona una fuente legible */
+}
+
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+#contenido {
+    position: relative;
+    z-index: 1;
+    color: white;
+    /* Color del texto sobre el video */
+    padding: 20px;
+    /* Añade un espacio alrededor del contenido */
+}
+
+.botones {
+    margin-top: 20px;
+}
+
+.botones ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.botones li {
+    margin-bottom: 10px;
+}
+
+.botones button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding-left: 30px;
+    /* Espacio para el icono */
+    cursor: pointer;
+}
+
+
+.botones {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.botones button {
+    width: 20%px;
+    font-size: 30px;
+    font-family: "Anton", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.botones i {
+    font-size: 10px;
+    margin-right: 20px;
+}
+
+.botones li {
+    display: flex;
+    align-items: center;
+    text-align: left;
+margin-bottom: 10%;
+
+}
+
+#jugar {
+    font-size: 70px;
+    color: rgb(238, 90, 90);
+    margin-bottom: -20%;
+}
+#jugar i{
+    color: white;
+}
+.botones button:hover{
+    color: rgb(0, 251, 255);
+    transition: all 0.3s;
+}
+.botones button:hover i{
+    rotate: 90deg;
+    color: rgb(0, 251, 255);
+    transition: all 0.3s;
+    margin-right: 25px;
+    font-size: 12px;
+}
+#jugar:hover {
+    color: rgb(0, 251, 255);
+    transition: all 0.3s;
+}
+#jugar:hover i{
+    color: rgb(0, 251, 255);
+    transition: all 0.3s;
+}
+.salud{
+    margin-top: 20px;
+    
+}
